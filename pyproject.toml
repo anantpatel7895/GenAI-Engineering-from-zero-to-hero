@@ -4,10 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Anant", email = "@azentio.com" }
+    { name = "Anantram Patel", email = "anantpatel.chh@gmail.com" }
 ]
 requires-python = ">=3.12.10"
-dependencies = []
+dependencies = [
+    "torch>=2.13.0",
+    "torchaudio>=2.11.0",
+    "torchvision>=0.28.0",
+]
 
 [project.scripts]
 genai-engineering-from-zero-to-hero = "genai_engineering_from_zero_to_hero:main"
@@ -15,3 +19,8 @@ genai-engineering-from-zero-to-hero = "genai_engineering_from_zero_to_hero:main"
 [build-system]
 requires = ["uv_build>=0.12.0,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
