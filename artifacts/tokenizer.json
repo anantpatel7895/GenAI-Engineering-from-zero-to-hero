@@ -1,0 +1,229 @@
+{
+    "version": "1.0",
+    "model": "BPE",
+    "special_tokens": {
+        "<unk>": 0,
+        "<pad>": 1,
+        "<bos>": 2,
+        "<eos>": 3
+    },
+    "vocabulary": {
+        "<unk>": 0,
+        "<pad>": 1,
+        "<bos>": 2,
+        "<eos>": 3,
+        ".": 4,
+        "ai": 5,
+        "are": 6,
+        "build": 7,
+        "deep": 8,
+        "i": 9,
+        "is": 10,
+        "learning": 11,
+        "love": 12,
+        "machine": 13,
+        "powerful": 14,
+        "systems": 15,
+        "transformers": 16
+    },
+    "merge_rules": [
+        [
+            "i",
+            "n"
+        ],
+        [
+            "a",
+            "r"
+        ],
+        [
+            "l",
+            "e"
+        ],
+        [
+            "le",
+            "ar"
+        ],
+        [
+            "lear",
+            "n"
+        ],
+        [
+            "learn",
+            "in"
+        ],
+        [
+            "learnin",
+            "g"
+        ],
+        [
+            "e",
+            "r"
+        ],
+        [
+            "p",
+            "o"
+        ],
+        [
+            "po",
+            "w"
+        ],
+        [
+            "pow",
+            "er"
+        ],
+        [
+            "power",
+            "f"
+        ],
+        [
+            "powerf",
+            "u"
+        ],
+        [
+            "powerfu",
+            "l"
+        ],
+        [
+            "m",
+            "a"
+        ],
+        [
+            "ma",
+            "c"
+        ],
+        [
+            "mac",
+            "h"
+        ],
+        [
+            "mach",
+            "in"
+        ],
+        [
+            "machin",
+            "e"
+        ],
+        [
+            "s",
+            "y"
+        ],
+        [
+            "sy",
+            "s"
+        ],
+        [
+            "sys",
+            "t"
+        ],
+        [
+            "syst",
+            "e"
+        ],
+        [
+            "syste",
+            "m"
+        ],
+        [
+            "system",
+            "s"
+        ],
+        [
+            "l",
+            "o"
+        ],
+        [
+            "lo",
+            "v"
+        ],
+        [
+            "lov",
+            "e"
+        ],
+        [
+            "d",
+            "e"
+        ],
+        [
+            "de",
+            "e"
+        ],
+        [
+            "dee",
+            "p"
+        ],
+        [
+            "i",
+            "s"
+        ],
+        [
+            "ar",
+            "e"
+        ],
+        [
+            "b",
+            "u"
+        ],
+        [
+            "bu",
+            "i"
+        ],
+        [
+            "bui",
+            "l"
+        ],
+        [
+            "buil",
+            "d"
+        ],
+        [
+            "a",
+            "i"
+        ],
+        [
+            "t",
+            "r"
+        ],
+        [
+            "tr",
+            "a"
+        ],
+        [
+            "tra",
+            "n"
+        ],
+        [
+            "tran",
+            "s"
+        ],
+        [
+            "trans",
+            "f"
+        ],
+        [
+            "transf",
+            "o"
+        ],
+        [
+            "transfo",
+            "r"
+        ],
+        [
+            "transfor",
+            "m"
+        ],
+        [
+            "transform",
+            "er"
+        ],
+        [
+            "transformer",
+            "s"
+        ]
+    ],
+    "normalizer": {
+        "lowercase": true
+    },
+    "pre_tokenizer": {
+        "type": "BasicPreTokenizer"
+    }
+}

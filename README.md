@@ -31,3 +31,10 @@ find . \( -path "./.git" -o -path "./.venv" \) -prune -o -type f -print
 ```bash
 find . \( -path "./.git" -o -path "./.venv" \) -prune -o -print
 ```
+
+
+# To run the debug scripts
+
+```bash
+uv run python debug/debug_tokenizer.py
+```

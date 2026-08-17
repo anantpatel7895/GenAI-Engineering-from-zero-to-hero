@@ -8,9 +8,11 @@ authors = [
 ]
 requires-python = ">=3.12.10"
 dependencies = [
+    "tokenizers>=0.22.2",
     "torch>=2.13.0",
     "torchaudio>=2.11.0",
     "torchvision>=0.28.0",
+    "transformers>=5.15.0",
 ]
 
 [project.scripts]
@@ -24,3 +26,7 @@ build-backend = "uv_build"
 dev = [
     "pytest>=9.1.1",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
