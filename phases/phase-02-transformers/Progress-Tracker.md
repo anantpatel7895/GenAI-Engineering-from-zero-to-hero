@@ -14,7 +14,7 @@
 | Project 2 — Build a Tokenizer            | ⬜ Not Started |       |
 | Project 3 — Embeddings                   | ⬜ Not Started |       |
 | Project 4 — Self Attention               | ⬜ Not Started |       |
-| Project 5 — Multi Head Attention         | ⬜ Not Started |       |
+| Project 5 — Multi Head Attention (MHA)   | ⬜ Not Started |       |
 | Project 6 — Transformer Block            | ⬜ Not Started |       |
 | Project 7 — Build GPT From Scratch       | ⬜ Not Started |       |
 | Project 8 — Training Pipeline            | ⬜ Not Started |       |
